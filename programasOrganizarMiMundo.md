@@ -21,4 +21,9 @@
     - En gitHub siguiendo este otro [tutorial] (http://blog.teamtreehouse.com/using-github-pages-to-host-your-website) o [este del propio GitHub](https://pages.github.com/)
         - clonar en gh-pages parece obligatorio para que funcione aunque no entiendo mucho porque.
         - sale este error This request has been blocked; the content must be served over HTTPS. para cargar los cdn que tengo que cargar desde https lo tengo que cambiar en la plantilla.html
+        - secuencia de publicación
+            + guardo los cambios en md y genero el html control + b
+            + git add .
+            + git commit -m "comentario"
+            + git push -u origin gh-pages
 * usar [todo](C:\nube\MEGA\portables\plainText\todo.txt) para la lista de tareas.
