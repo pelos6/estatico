@@ -4,45 +4,7 @@
 	<title>gitChuleta</title>
 	<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-	<style type="text/css">
-		body {
-			background-color: #EEE;
-			margin: 2em 0;
-			font-size: 12pt;
-			font-family: "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans GB", sans-serif;
-			line-height: 150%;
-		}
-		blockquote {
-			font-size: inherit;
-		}
-		#container {
-			background-color: #FFF;
-			/*box-shadow: 0px 0px 10px #CCC;*/
-			/*border: 3px solid #DDD;*/
-			padding: 1em 2em;
-			box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d3d3d3;
-			border-radius: 0.5em;
-			margin-bottom: 1em;
-		}
-		h1, h2, h3, h4, h5, h6 {
-			border-bottom: 1px solid #EEE;
-			padding-bottom: 0.25em;
-			font-weight: bold;
-			margin-top: 1em;
-		}
-		img {
-			border: 3px solid #e6e6e6;
-			padding: 1em;
-			box-shadow: 0px 0px 10px #d3d3d3;
-		}
-		.contents
-		{
-   			 float: right
-		}
-		@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
-			img { zoom: 0.5; }
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<div id="container" class="container">
@@ -52,9 +14,30 @@
 <p>parece que al instalar el package en sublime algo se desconfigura con <br />
 el paquete de markdownpreview <br />
 no coje la plantilla. <br />
-tengo que quitar el package git y volver a abrir sublime ..!!!!</p>
+tengo que quitar el package git y volver a abrir sublime ..!!!! </p>
 <h1 id="deshacer-unos-cambios"><a name="user-content-deshacer-unos-cambios" href="#deshacer-unos-cambios" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Deshacer unos cambios</h1>
-<p><code>git reset --hard</code>Please, commit your changes or stash them before you can merge.</p>
+<pre><code>git reset --hard 
+Please, commit your changes or stash them before you can merge.
+</code></pre>
+
+<h1 id="actualizar-la-copia-local-con-el-repositorio-remoto"><a name="user-content-actualizar-la-copia-local-con-el-repositorio-remoto" href="#actualizar-la-copia-local-con-el-repositorio-remoto" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Actualizar la copia local con el repositorio remoto</h1>
+<pre><code>git pull
+
+C:\nube\MEGA\mundo&gt;git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/pelos6/mundo
+   a56588c..0d8d6f3  gh-pages   -&gt; origin/gh-pages
+Updating a56588c..0d8d6f3
+Fast-forward
+ miMundo.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-) 
+</code></pre>
+
+<h1 id="enlaces-utiles"><a name="user-content-enlaces-utiles" href="#enlaces-utiles" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Enlaces útiles</h1>
+<p><a href="http://rogerdudler.github.io/git-guide/index.es.html">Comandos básicos en castellano</a></p>
 
 	<a href="#arriba" class="contents">arriba</a>
 	</div>
