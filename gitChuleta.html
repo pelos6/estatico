@@ -9,12 +9,36 @@
 <body>
 	<div id="container" class="container">
 	<p class="contents"><a name="arriba" href="miMundo.html">Mi Mundo</a></p>
-		<p><a href="miMundo.html">mi mundo</a> / <a href="programacion.html">programacion</a> / git Chuleta </p>
-<h1 id="git"><a name="user-content-git" href="#git" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>git</h1>
-<p>parece que al instalar el package en sublime algo se desconfigura con <br />
-el paquete de markdownpreview <br />
-no coje la plantilla. <br />
-tengo que quitar el package git y volver a abrir sublime ..!!!! </p>
+		<p><a href="miMundo.html">miMundo</a> / <a href="programacion.html">programacion</a> / <a href="git.html">git</a> / git Chuleta <br />
+<!-- MarkdownTOC --></p>
+<ul>
+<li><a href="#secuencia-habitual">secuencia habitual</a></li>
+<li><a href="#deshacer-unos-cambios">Deshacer unos cambios</a></li>
+<li><a href="#actualizar-la-copia-local-con-el-repositorio-remoto">Actualizar la copia local con el repositorio remoto</a></li>
+<li><a href="#git">git</a></li>
+<li><a href="#enlaces-útiles">Enlaces útiles</a></li>
+</ul>
+<!-- /MarkdownTOC -->
+
+<h1 id="secuencia-habitual"><a name="user-content-secuencia-habitual" href="#secuencia-habitual" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>secuencia habitual</h1>
+<pre><code>git add -A
+git commit -m &quot;mensaje del commit&quot;
+git push -u origin master
+</code></pre>
+
+<ul>
+<li>git add -A<br />
+en git 1.x almacena todos los archivos ya sean nuevos, modificados o borrados<br />
+en git 2.x tambien</li>
+<li>git add .<br />
+en git 1.x almacena todos los archivos ya sean nuevos o modificados no los borrados<br />
+en git 2.x almacena también los borrados</li>
+<li>git push -u <ul>
+<li>origin es la rama local</li>
+<li>master suele ser la rama en el repositorio remoto pero puede ser gh-pages para esta documentación</li>
+</ul>
+</li>
+</ul>
 <h1 id="deshacer-unos-cambios"><a name="user-content-deshacer-unos-cambios" href="#deshacer-unos-cambios" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Deshacer unos cambios</h1>
 <pre><code>git reset --hard 
 Please, commit your changes or stash them before you can merge.
@@ -36,6 +60,11 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-) 
 </code></pre>
 
+<h1 id="git"><a name="user-content-git" href="#git" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>git</h1>
+<p>parece que al instalar el package en sublime algo se desconfigura con <br />
+el paquete de markdownpreview <br />
+no coje la plantilla. <br />
+tengo que quitar el package git y volver a abrir sublime ..!!!! </p>
 <h1 id="enlaces-utiles"><a name="user-content-enlaces-utiles" href="#enlaces-utiles" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Enlaces útiles</h1>
 <p><a href="http://rogerdudler.github.io/git-guide/index.es.html">Comandos básicos en castellano</a></p>
 

@@ -9,5 +9,5 @@
 | mongo          | work in progress   | [mongo](mongo.html)|  
 | sublime        | work in progress   | [sublime Text](sublimeText.html)|  
 | linux ubuntu   | work in progress   | [linux ubuntu](linuxUbuntu.html)|  
-| git            | work in progress   | [Git](gitChuleta.html)|  
+| git            | work in progress   | [Git](git.html)|  
 | ubuntu         | work in progress   | [Ubuntu](ubuntu.html)|  

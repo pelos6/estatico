@@ -1,10 +1,9 @@
-[inicio](inicio.html) / [miMundo](miMundo.html) / [programacion](programacion.html) / programacion Problemas 
-#  Programación Problemas
+[inicio](inicio.html) / [miMundo](miMundo.html) / [plantillas](plantillas.html) / plantilla simple
+#  Plantilla simple
 <!-- MarkdownTOC -->
 
 - [Proposito](#proposito)
 - [Bower](#bower)
-- [Sublime 3](#sublime-3)
 
 <!-- /MarkdownTOC -->
 
@@ -31,9 +30,4 @@ bower install --verbose -- force
 ```  
 ahora funciona 
 
-# Sublime 3
-Error loading syntax file
-"Package/Markdown/Markdown.tmLanguage": Unable to open Package/Markdown/Markdown.tmLanguage 
-Esto pasaba si había un archivo md abierto por defecto lo que provocaba e intento de cargar la sintaxis para este tipo de archivo que estaba sustituida por el plugin markdownEditing
-https://github.com/SublimeText-Markdown/MarkdownEditing/issues/205
 

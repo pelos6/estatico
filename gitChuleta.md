@@ -1,9 +1,29 @@
-[mi mundo](miMundo.html) / [programacion](programacion.html) / git Chuleta 
-# git
-parece que al instalar el package en sublime algo se desconfigura con 
-el paquete de markdownpreview 
-no coje la plantilla. 
-tengo que quitar el package git y volver a abrir sublime ..!!!! 
+[miMundo](miMundo.html) / [programacion](programacion.html) / [git](git.html) / git Chuleta 
+<!-- MarkdownTOC -->
+
+- [secuencia habitual](#secuencia-habitual)
+- [Deshacer unos cambios](#deshacer-unos-cambios)
+- [Actualizar la copia local con el repositorio remoto](#actualizar-la-copia-local-con-el-repositorio-remoto)
+- [git](#git)
+- [Enlaces útiles](#enlaces-útiles)
+
+<!-- /MarkdownTOC -->
+# secuencia habitual
+```
+git add -A
+git commit -m "mensaje del commit"
+git push -u origin master
+```
+
+- git add -A
+en git 1.x almacena todos los archivos ya sean nuevos, modificados o borrados
+en git 2.x tambien
+- git add .
+en git 1.x almacena todos los archivos ya sean nuevos o modificados no los borrados
+en git 2.x almacena también los borrados
+- git push -u 
+    + origin es la rama local
+    + master suele ser la rama en el repositorio remoto pero puede ser gh-pages para esta documentación
 
 # Deshacer unos cambios
 ```
@@ -28,5 +48,11 @@ Fast-forward
  1 file changed, 1 insertion(+), 1 deletion(-) 
 ```
 
+
+# git
+parece que al instalar el package en sublime algo se desconfigura con 
+el paquete de markdownpreview 
+no coje la plantilla. 
+tengo que quitar el package git y volver a abrir sublime ..!!!! 
 # Enlaces útiles
 [Comandos básicos en castellano](http://rogerdudler.github.io/git-guide/index.es.html)

@@ -9,3 +9,4 @@
 | sobre mi equipo|                    | [miVaio](miVaio.html)|  
 | sobre mis web  |                    | [miWeb](miWeb.html)|  
 | sobre la wifi de casa  |                    | [wifiCasa](wifiCasa.html)|  
+| plantillas  |                    | [plantillas](plantillas.html)|  

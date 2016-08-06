@@ -1,4 +1,4 @@
-[inicio](inicio.html) / [mi mundo](miMundo.html) / [programacion](programacion.html) / mongo 
+[inicio](inicio.html) / [miMundo](miMundo.html) / [programacion](programacion.html) / mongo 
 #  Mongo
 <!-- MarkdownTOC -->
 

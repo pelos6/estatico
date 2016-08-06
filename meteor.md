@@ -1,4 +1,4 @@
-[mi mundo](miMundo.html) / [programacion](programacion.html) / meteor 
+[miMundo](miMundo.html) / [programacion](programacion.html) / meteor 
 #  Meteor
 <!-- MarkdownTOC -->
 
@@ -19,7 +19,7 @@
 - [Cursos de Coursera](#cursos-de-coursera)
     - [Introducción al Desarrollo con Meteror.js](#introducción-al-desarrollo-con-meterorjs)
 - [Web Application Development with JavaScript and MongoDB](#web-application-development-with-javascript-and-mongodb)
-- [ Responsive Website Tutorial and Examples](#-responsive-website-tutorial-and-examples)
+- [Responsive Website Tutorial and Examples](#responsive-website-tutorial-and-examples)
 - [blog](#blog)
 - [graficos y meteor](#graficos-y-meteor)
     - [Textcircle](#textcircle)

@@ -1,4 +1,4 @@
-[mi mundo](miMundo.html) / [programacion](programacion.html) / [meteor](meteor.html) / instalar meteor 
+[miMundo](miMundo.html) / [programacion](programacion.html) / [meteor](meteor.html) / instalar meteor 
 #  Instalar Meteor
 <!-- MarkdownTOC -->
 

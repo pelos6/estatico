@@ -9,13 +9,39 @@
 <body>
 	<div id="container" class="container">
 	<p class="contents"><a name="arriba" href="miMundo.html">Mi Mundo</a></p>
-		<h1 id="programas-para-organizar-mi-mundo"><a name="user-content-programas-para-organizar-mi-mundo" href="#programas-para-organizar-mi-mundo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>programas para organizar mi mundo</h1>
+		<p><a href="inicio.html">inicio</a> / <a href="miMundo.html">miMundo</a> / programasOrganizarMiMundo</p>
+<h1 id="programas-para-organizar-mi-mundo"><a name="user-content-programas-para-organizar-mi-mundo" href="#programas-para-organizar-mi-mundo" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>programas para organizar mi mundo</h1>
+<!-- MarkdownTOC -->
+
 <ul>
-<li>escribirlo en <a href="markdown.html">Markdown</a> <ul>
-<li>usando <a href="sublimeText.html">SublimeText</a> como editor<ul>
+<li><a href="#enlaces-para-generar-una-página-web-estatica-en-github">Enlaces para generar una página web estatica en gitHub</a></li>
+<li><a href="#escribirlo-en-markdown">escribirlo en Markdown</a></li>
+<li><a href="#repositorio">repositorio</a></li>
+<li><a href="#buscar-una-forma-de-publicar-facilmente-esta-información">buscar una forma de publicar facilmente esta información</a></li>
+<li><a href="#usar-todo-para-la-lista-de-tareas">usar todo para la lista de tareas.</a></li>
+</ul>
+<!-- /MarkdownTOC -->
+
+<h1 id="enlaces-para-generar-una-pagina-web-estatica-en-github"><a name="user-content-enlaces-para-generar-una-pagina-web-estatica-en-github" href="#enlaces-para-generar-una-pagina-web-estatica-en-github" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Enlaces para generar una página web estatica en gitHub</h1>
+<ul>
+<li><a href="https://24ways.org/2013/get-started-with-github-pages/">metodo para publicar en gitHub</a></li>
+<li><a href="razonesUsarGithubPagina.html">razones para usar este método</a></li>
+</ul>
+<h1 id="escribirlo-en-markdown"><a name="user-content-escribirlo-en-markdown" href="#escribirlo-en-markdown" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>escribirlo en <a href="markdown.html">Markdown</a></h1>
+<ul>
+<li>usando <a href="sublimeText.html">SublimeText</a> como editor</li>
 <li>uso sublimeText 3 de 32 bits portable que esta en este directorio<ul>
-<li>C:\nube\MEGA\portables\sublimeText3_32 para poderlo usar en el curro </li>
+<li>C:\nube\MEGA\portables\sublimeText3_32_mundo para poderlo usar en el curro </li>
 <li>dejo ese sublime portable para esta documentación y en el resto de instalaciones si que instalo más plugins.</li>
+<li>uso una <a href="plantilla.html">plantilla</a> al generar el html se usa esa plantilla y el contenido se inserte en HEAD y en BODY <ul>
+<li>Esta plantilla debe estar en el directorio donde este el ejecutable de sublimeText.exe</li>
+<li>El uso de esta plantilla se debe definir en los settingd de MarkdownPreview <br />
+<pre><code>    &quot;html_template&quot;: &quot;plantilla.html&quot;,
+    &quot;file_path_conversions&quot;: &quot;relative&quot;,
+    &quot;skip_default_stylesheet&quot;: true
+</code></pre></li>
+</ul>
+</li>
 </ul>
 </li>
 <li>pongo migas de pan donde es relevante <ul>
@@ -23,23 +49,27 @@
 </ul>
 </li>
 <li>Al instalar por ejemplo SublimeGit se renderiza mal el html con MarkdownPreview. Reinicio Sublime (mundo) y vuelve a funcionar bien!!.</li>
-<li>aunque al cambiar ya no </li>
-</ul>
-</li>
+<li>aunque al cambiar ya no <ul>
 <li>uso Brackets con el plugin Markdown Preview porque es más facil ver lo que estas escribiendo</li>
 <li>instalo MarkdownPad 2 para probar en <br />
      C:\Program Files (x86)\MarkdownPad 2<br />
     pero lo desinstalo por que te pide actualizar a pro y da problemas al hacer el previo</li>
 </ul>
 </li>
-<li>usa <a href="bitBucket.html">bitBucket</a> como repositorio</li>
-<li>buscar una forma de publicar facilmente esta información<ul>
-<li>En bitbucket siguiendo este <a href="">tutorial</a> <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html"><a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html"><a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html</a></a></a>)<ul>
+</ul>
+<h1 id="repositorio"><a name="user-content-repositorio" href="#repositorio" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>repositorio</h1>
+<ul>
+<li>06/08/2016 uso <a href="https://github.com/pelos6/mundo">GitHub</a></li>
+<li>antes <a href="bitBucket.html">bitBucket</a></li>
+</ul>
+<h1 id="buscar-una-forma-de-publicar-facilmente-esta-informacion"><a name="user-content-buscar-una-forma-de-publicar-facilmente-esta-informacion" href="#buscar-una-forma-de-publicar-facilmente-esta-informacion" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>buscar una forma de publicar facilmente esta información</h1>
+<ul>
+<li>En bitbucket siguiendo este <a href="">tutorial</a> <a href="https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html">https://confluence.atlassian.com/bitbucket/publishing-a-website-on-bitbucket-cloud-221449776.html</a>)</li>
 <li>Pero el nombre del la web debe llevar el nombre del usuario tipo <a href="http://pelos6.bitbucket.org/">http://pelos6.bitbucket.org/</a> lo que limita la utilidad</li>
-<li>la ventaja de BitBucket sobre git con los repositorios privados no sirve aqui pues esta url es accesible para todo el mundo aunque venga de un repositorio privado.</li>
+<li>la ventaja de BitBucket sobre git con los repositorios privados no sirve aqui pues esta url es accesible para todo el mundo aunque venga de un repositorio privado.<ul>
+<li>En gitHub siguiendo este otro [tutorial] (<a href="http://blog.teamtreehouse.com/using-github-pages-to-host-your-website">http://blog.teamtreehouse.com/using-github-pages-to-host-your-website</a>) o <a href="https://pages.github.com/">este del propio GitHub</a></li>
 </ul>
 </li>
-<li>En gitHub siguiendo este otro [tutorial] (<a href="http://blog.teamtreehouse.com/using-github-pages-to-host-your-website"><a href="http://blog.teamtreehouse.com/using-github-pages-to-host-your-website"><a href="http://blog.teamtreehouse.com/using-github-pages-to-host-your-website">http://blog.teamtreehouse.com/using-github-pages-to-host-your-website</a></a></a>) o <a href="https://pages.github.com/">este del propio GitHub</a><ul>
 <li>clonar en gh-pages parece obligatorio para que funcione aunque no entiendo mucho porque.</li>
 <li>sale este error This request has been blocked; the content must be served over HTTPS. para cargar los cdn que tengo que cargar desde https lo tengo que cambiar en la plantilla.html</li>
 <li>secuencia de publicación<ul>
@@ -50,11 +80,7 @@
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-</li>
-<li>usar <a href="../portables/plainText/todo.txt">todo</a> para la lista de tareas.</li>
-</ul>
+<h1 id="usar-todo-para-la-lista-de-tareas"><a name="user-content-usar-todo-para-la-lista-de-tareas" href="#usar-todo-para-la-lista-de-tareas" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>usar <a href="../portables/plainText/todo.txt">todo</a> para la lista de tareas.</h1>
 
 	<a href="#arriba" class="contents">arriba</a>
 	</div>

@@ -1,4 +1,4 @@
-[mi mundo](miMundo.html) / [programacion](programacion.html) / ubuntu 
+[miMundo](miMundo.html) / [programacion](programacion.html) / ubuntu 
 #  Uuntu
 <!-- MarkdownTOC -->
 

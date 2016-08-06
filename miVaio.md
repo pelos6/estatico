@@ -1,4 +1,4 @@
-[inicio](inicio.html) / [mi mundo](miMundo.html) /Mi Vaio 
+[inicio](inicio.html) / [miMundo](miMundo.html) /Mi Vaio 
 # Mi VAIO 
 <!-- MarkdownTOC -->
 

@@ -1,4 +1,4 @@
-[mi mundo](miMundo.html) / [programacion](programacion.html) / [meteor](meteor.html) / appInicio 
+s[miMundo](miMundo.html) / [programacion](programacion.html) / [meteor](meteor.html) / appInicio 
 #  app Inicio
 <!-- MarkdownTOC -->
 
